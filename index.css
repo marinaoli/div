@@ -1,0 +1,33 @@
+.main{
+  background-color: blue;
+  justify-content:space-between;
+}
+
+.item {
+  flex: 1;
+  min-height: 170px;
+}
+
+.item-two {
+  flex: 2;
+  min-height: 170px;
+}
+
+.content{
+  background-color: yellow;
+  margin: 20px 40px 20px 40px;
+}
+
+.columnNew {
+  display: flex;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+}
+
+.rowNew {
+  display: flex;
+  flex-direction: row;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+}
